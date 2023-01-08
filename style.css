@@ -8,7 +8,7 @@ body {
   margin: 0px;
   min-height: 100%;
   width: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 ul {
@@ -40,7 +40,7 @@ a {
 .header {
   display: flex;
   justify-content: space-around;
-  background-color: #1F2937;
+  background-color: #1f2937;
 }
 
 .section1 {
@@ -48,7 +48,7 @@ a {
   justify-content: space-around;
   background-color: #3882f6;
   padding: 7% 6%;
-  background-color: #1F2937;
+  background-color: #1f2937;
 }
 
 .left {
@@ -93,4 +93,42 @@ a {
   font-size: 16px;
   color: white;
   border: transparent;
+}
+
+.s2-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.s2-img {
+  width: 150px;
+  height: 150px;
+  border-color: #3882f6;
+  border-radius: 10px;
+  border-width: 10px;
+  margin-bottom: 0;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 5%;
+}
+
+.text {
+  word-break: break-word;
+  max-width: 150px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  color: lightslategrey;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
 }
