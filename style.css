@@ -161,3 +161,16 @@ a {
   margin-left: 30%;
   margin-top: 0;
 }
+
+.section4 {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #3882f6;
+  height: 175px;
+  width: 1200px;
+}
