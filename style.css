@@ -83,7 +83,7 @@ a {
   font-size: 18px;
   color: #e5e7eb;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 8px;
 }
 
 .s1-button {
@@ -118,10 +118,10 @@ a {
   justify-content: center;
   gap: 50px;
   margin-top: 5%;
+  flex-wrap: wrap;
 }
 
 .text {
-  word-break: break-word;
   max-width: 150px;
   text-align: center;
   margin-top: 5px;
@@ -134,3 +134,27 @@ a {
   flex-direction: column;
 }
 
+.section3 {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 500px;
+  
+}
+
+.quote {
+  width: 900px;
+  font-size: 36px;
+  font-weight: 50;
+  font-style: italic;
+  color: #1F2937;
+  
+}
+
+.thor {
+  font-size: 24px;
+  font-weight: 700;
+}
